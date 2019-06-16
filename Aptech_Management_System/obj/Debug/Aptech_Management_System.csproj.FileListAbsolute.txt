@@ -1,0 +1,53 @@
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.exe.config
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.exe
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.pdb
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\MetroFramework.Design.dll
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\MetroFramework.dll
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\MetroFramework.Fonts.dll
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.csprojResolveAssemblyReference.cache
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Form1.resources
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Properties.Resources.resources
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.csproj.GenerateResource.Cache
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.exe
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.pdb
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.File_Mannage.Login_form.resources
+c:\users\legend\documents\visual studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Loader.resources
+C:\Users\LEGEND\Documents\Visual Studio 2013\Projects\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu_UI_v1.52.dll
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.exe.config
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.exe
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.pdb
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.exe
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.pdb
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\MetroFramework.Design.dll
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\MetroFramework.dll
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\MetroFramework.Fonts.dll
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.csprojResolveAssemblyReference.cache
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Form1.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Properties.Resources.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.csproj.GenerateResource.Cache
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Important_Tab.Enquree_Form_1.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Important_Tab.Enquree_Form_2.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Important_Tab.Enquree_Form_3.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Login.resources
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Accountant.Resiept.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Adsimision.Admission_form.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Adsimision.All_Student.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Dashboard.DashBoard.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Enquiry.Enquree_view.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Signup.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Forgot.resources
+F:\Aptech_Management_System\Aptech_Management_System\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Batch.Add_Student_In_Batch.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Batch.Change_Batch.resources
+F:\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.Employ.Employ.resources
+E:\Aptech Orignal Form\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.exe.config
+E:\Aptech Orignal Form\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.exe
+E:\Aptech Orignal Form\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.pdb
+E:\Aptech Orignal F\Aptech_Management_System\Aptech_Management_System\bin\Debug\Aptech_Management_System.exe.config
+E:\Aptech Orignal F\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.exe
+E:\Aptech Orignal F\Aptech_Management_System\Aptech_Management_System\obj\Debug\Aptech_Management_System.pdb

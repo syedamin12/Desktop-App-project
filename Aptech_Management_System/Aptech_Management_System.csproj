@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FB94A04-1462-45AB-B280-689775D8254B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aptech_Management_System</RootNamespace>
+    <AssemblyName>Aptech_Management_System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>C:\Users\LEGEND\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>C:\Users\LEGEND\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>C:\Users\LEGEND\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Downloads\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accountant\Resiept.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Accountant\Resiept.Designer.cs">
+      <DependentUpon>Resiept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adsimision\Admission_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Adsimision\Admission_form.Designer.cs">
+      <DependentUpon>Admission_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adsimision\All Student.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Adsimision\All Student.Designer.cs">
+      <DependentUpon>All Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aptech_Management_SystemsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Aptech_Management_SystemsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Aptech_Management_SystemsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Aptech_Management_SystemsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Batch\Add_Student_In_Batch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Batch\Add_Student_In_Batch.Designer.cs">
+      <DependentUpon>Add_Student_In_Batch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Batch\Change_Batch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Batch\Change_Batch.Designer.cs">
+      <DependentUpon>Change_Batch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\DashBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employ\Employ.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employ\Employ.Designer.cs">
+      <DependentUpon>Employ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_view.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_view.Designer.cs">
+      <DependentUpon>Enquree_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forgot.Designer.cs">
+      <DependentUpon>Forgot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_Form 1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_Form 1.Designer.cs">
+      <DependentUpon>Enquree_Form 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_Form 2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_Form 2.Designer.cs">
+      <DependentUpon>Enquree_Form 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_Form 3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Enquiry\Enquree_Form 3.Designer.cs">
+      <DependentUpon>Enquree_Form 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Accountant\Resiept.resx">
+      <DependentUpon>Resiept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adsimision\Admission_form.resx">
+      <DependentUpon>Admission_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adsimision\All Student.resx">
+      <DependentUpon>All Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Batch\Add_Student_In_Batch.resx">
+      <DependentUpon>Add_Student_In_Batch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Batch\Change_Batch.resx">
+      <DependentUpon>Change_Batch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employ\Employ.resx">
+      <DependentUpon>Employ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\Enquree_view.resx">
+      <DependentUpon>Enquree_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgot.resx">
+      <DependentUpon>Forgot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\Enquree_Form 1.resx">
+      <DependentUpon>Enquree_Form 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\Enquree_Form 2.resx">
+      <DependentUpon>Enquree_Form 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enquiry\Enquree_Form 3.resx">
+      <DependentUpon>Enquree_Form 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Aptech_Management_SystemsDataSet.xsc">
+      <DependentUpon>Aptech_Management_SystemsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Aptech_Management_SystemsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Aptech_Management_SystemsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Aptech_Management_SystemsDataSet.xss">
+      <DependentUpon>Aptech_Management_SystemsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Aptech_Management_SystemsDataSet1.xsc">
+      <DependentUpon>Aptech_Management_SystemsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Aptech_Management_SystemsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Aptech_Management_SystemsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Aptech_Management_SystemsDataSet1.xss">
+      <DependentUpon>Aptech_Management_SystemsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-wide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button-of-three-horizontal-lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footerlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-wide1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC_classes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smart3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smart3 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyber-security.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyber-security %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elearning-multiple-choice-questions-tips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elearning-multiple-choice-questions-tips %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elearning-multiple-choice-questions-tips %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output2-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-1ccc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\081109b2c392b3f3bc24b81e4f61a1a6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-antique-style-world-map-computer-pictures-2269047.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39885949-innovation-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elearning-multiple-choice-questions-tips1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\940-31424-w34-fold.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\940-31424-w34-fold1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lIRAK2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OSC-O.U508P5c2337dbc05c6_610x610.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-with-a-diagonal-line-interface-symbol-for-invisibility.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnitedSmartBinturong-max-1mb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnitedSmartBinturong-max-1mb1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
